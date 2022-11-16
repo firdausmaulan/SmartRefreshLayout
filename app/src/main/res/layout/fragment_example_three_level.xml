@@ -11,7 +11,7 @@
         app:navigationIcon="?attr/homeAsUpIndicator"
         app:title="@string/fragment_example_three_level"/>
 
-    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+    <com.scwang.smart.refresh.layout.SmartRefreshLayout
         android:id="@+id/refreshLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -19,10 +19,10 @@
         app:srlEnableOverScrollBounce="false"
         app:srlEnableNestedScrolling="true"
         app:srlHeaderMaxDragRate="1.5">
-        <com.scwang.smartrefresh.layout.header.ClassicsHeader
+        <com.scwang.smart.refresh.header.ClassicsHeader
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
-        <com.scwang.smartrefresh.layout.SmartRefreshLayout
+        <com.scwang.smart.refresh.layout.SmartRefreshLayout
             android:id="@+id/refreshLayout2"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -31,19 +31,19 @@
             app:srlEnableNestedScrolling="true"
             app:srlHeaderMaxDragRate="1.35"
             app:srlDragRate="0.75">
-            <com.scwang.smartrefresh.layout.header.ClassicsHeader
+            <com.scwang.smart.refresh.header.ClassicsHeader
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:srlPrimaryColor="#11bbff"
                 app:srlAccentColor="#fff"/>
-            <com.scwang.smartrefresh.layout.SmartRefreshLayout
+            <com.scwang.smart.refresh.layout.SmartRefreshLayout
                 android:id="@+id/refreshLayout1"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 app:srlEnableNestedScrolling="true"
                 app:srlHeaderMaxDragRate="1.5"
                 app:srlDragRate="0.5">
-                <com.scwang.smartrefresh.layout.header.ClassicsHeader
+                <com.scwang.smart.refresh.header.ClassicsHeader
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     app:srlPrimaryColor="#3F51B5"
@@ -55,11 +55,11 @@
                     android:background="@color/colorAccent"
                     app:layoutManager="LinearLayoutManager"
                     tools:listitem="@android:layout/simple_list_item_2"/>
-                <com.scwang.smartrefresh.layout.footer.ClassicsFooter
+                <com.scwang.smart.refresh.footer.ClassicsFooter
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"/>
-            </com.scwang.smartrefresh.layout.SmartRefreshLayout>
-        </com.scwang.smartrefresh.layout.SmartRefreshLayout>
-    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+            </com.scwang.smart.refresh.layout.SmartRefreshLayout>
+        </com.scwang.smart.refresh.layout.SmartRefreshLayout>
+    </com.scwang.smart.refresh.layout.SmartRefreshLayout>
 
 </LinearLayout>

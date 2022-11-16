@@ -62,18 +62,7 @@ dependencies {
 
     debugImplementation 'com.squareup.leakcanary:leakcanary-android:2.10'
 
-    implementation project(':refresh-footer')
-    implementation project(':refresh-header')
     implementation project(':refresh-layout')
-    implementation project(':refresh-drawable-path')
-
-    implementation project(':refresh-layout-kernel')
-    implementation project(':refresh-header-classics')
-    implementation project(':refresh-header-radar')
-    implementation project(':refresh-header-falsify')
-    implementation project(':refresh-header-material')
-    implementation project(':refresh-header-two-level')
-    implementation project(':refresh-footer-ball')
 
     implementation 'com.flyco.roundview:FlycoRoundView_Lib:1.1.4@aar'
     implementation 'com.github.CymChad:BaseRecyclerViewAdapterHelper:2.9.50'

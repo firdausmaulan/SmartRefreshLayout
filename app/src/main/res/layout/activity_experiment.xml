@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+    <com.scwang.smart.refresh.layout.SmartRefreshLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#888">
@@ -24,13 +24,13 @@
             android:layout_height="match_parent"
             android:gravity="center"
             android:text="Footer"/>
-        <!--<com.scwang.smartrefresh.layout.header.ClassicsHeader-->
+        <!--<com.scwang.smart.refresh.header.ClassicsHeader-->
             <!--android:layout_width="match_parent"-->
             <!--android:layout_height="match_parent"-->
             <!--android:gravity="center"-->
             <!--android:text="Header"/>-->
 
-        <!--<com.scwang.smartrefresh.layout.header.ClassicsHeader-->
+        <!--<com.scwang.smart.refresh.header.ClassicsHeader-->
             <!--android:layout_width="match_parent"-->
             <!--android:layout_height="wrap_content"-->
             <!--app:srlPrimaryColor="#444"-->
@@ -42,11 +42,11 @@
             <!--android:background="#1bf"-->
             <!--android:overScrollMode="never"-->
             <!--tools:listitem="@android:layout/simple_list_item_2"/>-->
-        <!--<com.scwang.smartrefresh.layout.footer.ClassicsFooter-->
+        <!--<com.scwang.smart.refresh.footer.ClassicsFooter-->
             <!--android:layout_width="match_parent"-->
             <!--android:layout_height="wrap_content"-->
             <!--app:srlPrimaryColor="#444"-->
             <!--app:srlAccentColor="@android:color/white"/>-->
-    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    </com.scwang.smart.refresh.layout.SmartRefreshLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
