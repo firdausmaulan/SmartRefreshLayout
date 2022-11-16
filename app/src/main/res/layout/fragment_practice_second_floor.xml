@@ -6,13 +6,13 @@
     android:orientation="vertical"
     tools:context="com.scwang.refreshlayout.fragment.practice.SecondFloorPracticeFragment">
 
-    <com.scwang.smartrefresh.layout.SmartRefreshLayout
+    <com.scwang.smart.refresh.layout.SmartRefreshLayout
         android:id="@+id/refreshLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:clipChildren="false"
         app:srlAccentColor="@android:color/white">
-        <com.scwang.smartrefresh.layout.header.TwoLevelHeader
+        <com.scwang.smart.refresh.header.TwoLevelHeader
             android:id="@+id/header"
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
@@ -40,12 +40,12 @@
                     android:layout_height="match_parent"
                     app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
             </FrameLayout>
-            <com.scwang.smartrefresh.layout.header.ClassicsHeader
+            <com.scwang.smart.refresh.header.ClassicsHeader
                 android:id="@+id/classics"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="?attr/actionBarSize"/>
-        </com.scwang.smartrefresh.layout.header.TwoLevelHeader>
+        </com.scwang.smart.refresh.header.TwoLevelHeader>>
         <ScrollView
             android:id="@+id/scrollView"
             android:layout_width="match_parent"
@@ -64,11 +64,11 @@
                     android:src="@mipmap/image_taobao"/>
             </FrameLayout>
         </ScrollView>
-        <com.scwang.smartrefresh.layout.footer.ClassicsFooter
+        <com.scwang.smart.refresh.footer.ClassicsFooter
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:srlPrimaryColor="@android:color/white"/>
-    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    </com.scwang.smart.refresh.layout.SmartRefreshLayout>
 
     <androidx.appcompat.widget.Toolbar style="@style/AppTheme.Toolbar"
         android:id="@+id/toolbar"
